@@ -18,7 +18,7 @@ localhost:3000
 ## Inicialización del Servidor
 El servidor permitirá a la web interactuar con código Prolog y Python que ayudará a generar los Árboles de Decisión, las Regresiones Lineales, una IA Basada en Reglas, entre otras cosas.
 
-1. Es necesario tener alguna versión de Python instalada. Para poder descargar alguna, se puede realizar desde la página principal https://www.python.org/downloads/. Una vez instalado y ejecutado el instalador, quedará listo Python para usarse.
+1. Es necesario tener instalada la versión 3.12.10 de Python. Se puede descargar desde la página principal https://www.python.org/downloads/. Una vez instalado y ejecutado el instalador, quedará listo Python para usarse.
 2. Se necesitará de la librería Graphviz el cual se puede descargar su instalador desde la página oficial https://graphviz.org/download/. Es importante a la hora de instalarlo, seleccionar la opción que añade graphviz al PATH.
 3. Al igual que con la carpeta client, se debe ubicar en la carpeta service utilizando una consola y el comando cd.
 4. Es necesario crear un environment para poder manejar las dependencias del servidor alojado en Python. Primero es necesario instalar la dependencia virtualenv utilizando el comando python -m pip install --user virtualenv. Ya solo falta crear el ambiente utilizando python -m virtualenv <nombre> y activarlo usando .<nombre>\Scripts\activate.
